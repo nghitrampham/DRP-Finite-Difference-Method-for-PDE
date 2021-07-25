@@ -3,4 +3,4 @@ Demo of finite differences method used to illustrate how the heat and poisson eq
 
 **Run heat2D_driver.m to for a demo/animation of heat equation.**
 
-![Alt text](logos/ReadMe.jpg?raw=true "Title")
+![Alt text](images/demo.png?raw=true "Title")
