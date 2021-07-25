@@ -39,7 +39,7 @@ A = A / (hj^2);
 
 uApprox = A\(F - u_boundary);
  % for poisson 2DFD9 
- uApprox_5p = uApprox;
+uApprox_5p = uApprox;
 
 lower(1, 1:N) = [u0(x(1, xIndex), y(1, yIndex))];
 upper(1, 1:N) = [u0(x(N+2, xIndex), y(N+2, yIndex))];

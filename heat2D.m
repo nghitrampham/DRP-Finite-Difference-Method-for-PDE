@@ -76,7 +76,7 @@ for time = 2:length(time_step)
     end
     for i = 2:N+1
         for j = 2:N+1
-            idx = compute_idx(i,j,N); %index of point we approximate
+            idx = compute_idx(i,j,N); % index of point we approximate
             idxL= compute_idx(i-1,j,N); % left index boundary points
             idxR= compute_idx(i+1,j,N); % right index boundary points
             idxS= compute_idx(i,j-1,N); % south index boundary points 
